@@ -3,8 +3,8 @@ var OAuthConfig = (function() {
   
     var clientId = '28219d5f84fe4c848b86bbe5c97b2c45';
     var redirectUri;
-    if (location.host === 'localhost:5500') {
-      redirectUri = 'http://localhost:5500/callback.html';
+    if (location.host === 'localhost:5000') {
+      redirectUri = 'http://localhost:5000/callback.html';
     } else {
       redirectUri = 'https://artistexplorer.spotify.com/callback.html';
     }
